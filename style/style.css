@@ -1,0 +1,101 @@
+:root {
+    --normal: 1.6rem;
+    --medium: 3.6rem;
+    --large: 4.8rem;
+    --extra-large: 9.6rem;
+
+    --white: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding: 1rem;
+}
+
+.logo {
+    width: 10rem;
+}
+
+header {
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding-inline: 1.5rem;
+    padding-block: 0.7rem;
+    position: sticky;
+    top: 0;
+    background: white;
+    box-shadow: 0rem 2rem 24rem rgba(0, 0, 0, 0.09);
+}
+
+a {
+    font-weight: normal;
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: 0.07rem;
+    font-size: var(--normal);
+}
+
+ul, li {
+    padding-inline: 1.0rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+h1 {
+    font-size: var(--extra-large);
+    font-weight: bold;
+    letter-spacing: 0.015rem;
+}
+
+h3{
+    font-size: var(--medium);
+    letter-spacing: 0.07rem;
+
+}
+h3.job{
+    font-weight: medium;
+}
+
+h2{
+    font-size: var(--large);
+    letter-spacing: 0.015rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: var(--normal);
+    text-align: justify;
+    letter-spacing: 0.015rem;
+    font-weight: normal;
+}
+
+#title {
+    width: 100%;
+    height: 54.3rem;
+    background: linear-gradient(0deg, rgba(0, 224, 255, 0.2), rgba(0, 224, 255, 0.2)), url(../imgs/fundo-title.jpg);
+}
+
+#about {
+    background: linear-gradient(0deg, rgba(40, 89, 80, 0.2), rgba(40, 89, 80, 0.2)), url(../imgs/fundo-textura.jpg);
+}
+
+#skills, #contact{
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 62.02%, rgba(222, 222, 222, 0.14) 109.25%);
+}
+
+#projects {
+    background: linear-gradient(0deg, rgba(134, 212, 216, 0.2), rgba(134, 212, 216, 0.2)), url(../imgs/fundo-textura.jpg);
+}
